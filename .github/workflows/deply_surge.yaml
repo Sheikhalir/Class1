@@ -30,4 +30,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge ./ class1practicetext.surege.sh --token ${{secrets.Surge_Token}}
+      run: surge ./ class1practicetext.surge.sh --token ${{secrets.Surge_Token}}
